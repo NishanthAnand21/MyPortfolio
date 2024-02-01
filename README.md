@@ -1,4 +1,1 @@
-# MyPortfolio
-This is my personal Portfolio
-
-Development is under process
+Looking forward to sharing my upcoming Portfolio with you all! Development is underway and I can't wait to showcase my work. Stay tuned for updates.
