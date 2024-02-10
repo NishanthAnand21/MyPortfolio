@@ -1,0 +1,11 @@
+:root {
+  --bg-color: #272822;
+  --main-color: #a6e22e;
+  --sub-color: #e6db74;
+  --text-color: #e2e2dc;
+  --error-color: #f92672;
+  --error-extra-color: #fd971f;
+  
+  color: var(--main-color);
+  background: var(--bg-color);
+}

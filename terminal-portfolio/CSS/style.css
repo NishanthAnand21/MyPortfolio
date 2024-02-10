@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 15px 25px;
+  min-height: 99%;
+  font-family: cursor, monospace;
+  overflow-x: hidden;
+}
+
+.container-prop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 7px rgb(255 255 255 / 10%);
+  margin: 20px;
+  cursor: text;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.container p {
+  flex: 1;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.cursor {
+  font-size: 12px;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#command {
+  cursor: text;
+  height: 50px;
+}
+
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+
+#liner::before {
+  content: "guest@53ur!tyd3m0n:~$";
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  margin: 0;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+}
+
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.command {
+  text-shadow: 0 0 5px #73abad;
+}
+
+.white {
+  color: #fff;
+}
+
+.banner {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+a:focus {
+  outline: 0;
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  *:not(#liner) {
+    animation: none !important;
+  }
+
+  body {
+    min-width: 0;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container-prop {
+    margin-top: 25px;
+  }
+
+  #title {
+    margin-top: 25px;
+  }
+
+  p {
+    white-space: normal;
+  }
+
+  .container {
+    height: 700px;
+  }
+
+  .banner {
+    text-align: center;
+    font-size: 1.35vw;
+  }
+}
+
+
+
+body {
+  background: var(--bg-color);
+}
+
+::selection {
+  background-color: var(--error-extra-color);
+}
+
+::-moz-selection {
+  background-color: var(--error-extra-color);
+}
+
+.cursor {
+  color: var(--error-color);
+  background-color: var(--error-color);
+}
+
+#command {
+  color: var(--error-color);
+}
+
+#liner::before {
+  color: var(--main-color);
+}
+
+.color2 {
+  color: var(--sub-color);
+}
+
+.command {
+  color: var(--error-color);
+  text-shadow: 0 0 5px var(--error-color); 
+}
+
+.error {
+  color: var(--sub-color);
+}
+
+.inherit,
+a {
+  color: var(--text-color);
+}
+
+a:hover {
+background: var(--error-color);
+}
+
+
+.container {
+box-shadow: 0 0 10px 7px var(--main-color);
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: var(--bg-color);;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: var(--sub-color);
+border-radius: 10px;
+}
