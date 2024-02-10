@@ -50,7 +50,7 @@ help = [
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           Display list of commands',
   '<span class="command">clear</span>          Clear terminal',
-  '<span class="command">themes</span>         Change the theme',
+  // '<span class="command">themes</span>         Change the theme',
   "<br>",
 ];
 

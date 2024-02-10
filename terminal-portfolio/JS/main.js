@@ -78,52 +78,52 @@ function commander(cmd) {
         before = document.getElementById("before");
       }, 1);
       break;
-    case "themes":
-    case "themes 1":
-      loopLines(themes, "color2 margin", 80);
-      break;
-    case "themes 2":
-      loopLines(themes_2, "color2 margin", 80);
-      break;
-    case "themes 3":
-      loopLines(themes_3, "color2 margin", 80);
-      break;
-    case "themes 4":
-      loopLines(themes_4, "color2 margin", 80);
-      break;
-    case "themes 5":
-      loopLines(themes_5, "color2 margin", 80);
-      break;
-    case "themes 6":
-      loopLines(themes_6, "color2 margin", 80);
-      break;
-    case "themes 7":
-      loopLines(themes_7, "color2 margin", 80);
-      break;
-    case "themes 8":
-      loopLines(themes_8, "color2 margin", 80);
-      break;
-    case "themes 9":
-      loopLines(themes_9, "color2 margin", 80);
-      break;
-    case "themes 10":
-      loopLines(themes_10, "color2 margin", 80);
-      break;
-    case "themes 11":
-      loopLines(themes_11, "color2 margin", 80);
-      break;
-    case "themes 12":
-      loopLines(themes_12, "color2 margin", 80);
-      break;
-    case "themes 13":
-      loopLines(themes_13, "color2 margin", 80);
-      break;
-    case "themes 14":
-      loopLines(themes_14, "color2 margin", 80);
-      break;
-    case "themes 15":
-      loopLines(themes_15, "color2 margin", 80);
-      break;
+    // case "themes":
+    // case "themes 1":
+    //   loopLines(themes, "color2 margin", 80);
+    //   break;
+    // case "themes 2":
+    //   loopLines(themes_2, "color2 margin", 80);
+    //   break;
+    // case "themes 3":
+    //   loopLines(themes_3, "color2 margin", 80);
+    //   break;
+    // case "themes 4":
+    //   loopLines(themes_4, "color2 margin", 80);
+    //   break;
+    // case "themes 5":
+    //   loopLines(themes_5, "color2 margin", 80);
+    //   break;
+    // case "themes 6":
+    //   loopLines(themes_6, "color2 margin", 80);
+    //   break;
+    // case "themes 7":
+    //   loopLines(themes_7, "color2 margin", 80);
+    //   break;
+    // case "themes 8":
+    //   loopLines(themes_8, "color2 margin", 80);
+    //   break;
+    // case "themes 9":
+    //   loopLines(themes_9, "color2 margin", 80);
+    //   break;
+    // case "themes 10":
+    //   loopLines(themes_10, "color2 margin", 80);
+    //   break;
+    // case "themes 11":
+    //   loopLines(themes_11, "color2 margin", 80);
+    //   break;
+    // case "themes 12":
+    //   loopLines(themes_12, "color2 margin", 80);
+    //   break;
+    // case "themes 13":
+    //   loopLines(themes_13, "color2 margin", 80);
+    //   break;
+    // case "themes 14":
+    //   loopLines(themes_14, "color2 margin", 80);
+    //   break;
+    // case "themes 15":
+    //   loopLines(themes_15, "color2 margin", 80);
+    //   break;
     case "cv":
       loopLines(cv, "color2 margin", 80);
       break;
