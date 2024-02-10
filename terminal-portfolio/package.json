@@ -1,0 +1,11 @@
+{
+  "name": "terminal-portfolio",
+  "version": "1.0.0",
+  "description": "This is the repository for my personal portfolio website. The website showcases my skills and projects as a software engineer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
