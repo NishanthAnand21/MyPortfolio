@@ -3,10 +3,10 @@ let linkedIn = "https://www.linkedin.com/in/nishanth-anand-59ab96217/"
 
 whoami = [
   "<br>",
-  "Hello, I'm Nishanth Anand, a Cyber Security Researcher, fervent Developer,"
-  "and ardent Open Source Enthusiast hailing from the vibrant landscape of India."
-  "With my insatiable curiosity and unwavering passion for cybersecurity, I love to explore"
-  "and unravel its mysteries. I am confident in my abilities and bring a wealth of knowledge"
+  "Hello, I'm Nishanth Anand, a Cyber Security Researcher, fervent Developer,",
+  "and ardent Open Source Enthusiast hailing from the vibrant landscape of India.",
+  "With my insatiable curiosity and unwavering passion for cybersecurity, I love to explore",
+  "and unravel its mysteries. I am confident in my abilities and bring a wealth of knowledge",
   "and expertise to every project I work on.",
   "<br>",
 ];
@@ -44,7 +44,7 @@ projects = [
 
 help = [
   "<br>",
-  '<span class="command">whoami</span>         Who am I?',
+  '<span class="command">about</span>          Who am I?',
   '<span class="command">social</span>         Display social networks',
   '<span class="command">projects</span>       View coding projects',
   '<span class="command">history</span>        View command history',
